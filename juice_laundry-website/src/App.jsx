@@ -7,6 +7,19 @@ function App() {
     <>
       <div className='header'>
         <h1>The Juice Laundry</h1>
+        <div className='company-statement'>
+          <h3>We are 100%</h3>
+          <div className='values'>
+            <p>Organic</p>
+            <p>Non-GMO</p>
+            <p>Vegan</p>
+            <p>Gluten-Free</p>
+            <p>Peanut-Free</p>
+            <p>Soy-Free</p>
+            <p>Dairy-Free</p>
+          </div>
+          <h3>100% of the time</h3>
+        </div>
       </div>
       <div className='menu'>
         <div className='category'>
@@ -37,7 +50,7 @@ function App() {
             <p>strawberry, banana, basil, dates, house almond milk</p>
           </div>
           <div className="item">
-            <h3>Blended Brew</h3> 
+            <h3>Blended Brew</h3>
             <p>banana, cashew butter, coldbrew coffee, cacao (optional)</p>
           </div>
           <div className="item">
@@ -47,6 +60,79 @@ function App() {
           <div className="item">
             <h3>Kid Dynamite</h3>
             <p>banana, dragonfruit, house cashew milk</p>
+          </div>
+        </div>
+        <div className="category">
+
+          <h2 class="category-heading">Boosters</h2>
+          <div className='category-columns'>
+            <div className='booster-column'>
+              <div className="item-column">
+                <h4>Acai</h4>
+              </div>
+              <div className="item-column">
+                <h4>Chia Seeds</h4>
+              </div>
+              <div className="item-column">
+                <h4>Hemp Protein</h4>
+              </div>
+              <div className="item-column">
+                <h4>Spinach</h4>
+              </div>
+              <div className="item-column">
+                <h4>Kale</h4>
+              </div>
+            </div>
+            <div className='booster-column'>
+            
+              <div className="item-column">
+                <h4>Cacao</h4>
+              </div>
+              <div className="item-column">
+                <h4>Aloe Vera</h4>
+              </div>
+              <div className="item-column">
+                <h4>Coconut Oil</h4>
+              </div>
+              <div className="item-column">
+                <h4>Flax Seeds</h4>
+              </div>
+              <div className="item-column">
+                <h4>Ginger</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='category'>
+          <h2 class="category-heading">Acai Smoothie & More</h2>
+          <div className="item">
+            <img></img>
+            <h3>Acai Smoothie Bowl</h3>
+            <p>Pick any smoothie to use as the base for the bowl. Smoothie bowls come blended with acai and topped with fruit and house granola</p>
+          </div>
+          <div className="item">
+            <h3>Gluten-Free Oats Bowl</h3>
+            <p>Oats soaked in our house cashew milk, served cold, choice of two toppings included.</p>
+          </div>
+          <div className="item">
+            <h3>Quinoa Bowl</h3>
+            <p>Quinoa cooked in our house cashew milk, served cold, choice of two toppings included.</p>
+          </div>
+          <div className="item">
+            <h3>Combination Bowl</h3>
+            <p>Combination of oats and quinoa, served cold, choice of two toppings included.</p>
+          </div>
+          <div className="item">
+            <h3>Vanilla Cashew Parfait</h3>
+            <p>A vegan take on greek-style yogurt, loaded with probiotics and topped with berries and our house granola</p>
+          </div>
+          <div className="item">
+            <h3>Chia Seeds Pudding</h3>
+            <p>Available in strawberry, chocolate, vanilla Goji, and vanilla Macha flavors</p>
+          </div>
+          <div className="item">
+            <h3>House Granola</h3>
+            <p>You asked for it, so we have made our granola available in 16oz container.</p>
           </div>
         </div>
       </div>

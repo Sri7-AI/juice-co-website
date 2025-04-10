@@ -2,20 +2,79 @@ body {
   max-width: 1440px;
   margin-left: 100px;
   margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 12px;
 }
 
 h1 {
   font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
   font-size: 24px;
+  margin: 0;
+}
+
+.company-statement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 12px;
+  width: 100%;
+  border: solid;
+  border-width: 1px;
+}
+
+.values p {
+  justify-items: center;
+}
+
+h3 {
+  display: block;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 8px;
+  justify-items: center;
+  padding: 12px;
+  background-color: black;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
 .category {
   background-color: rgb(234, 234, 234);
   padding: 16px;
-  display: flex;
+  display: flex;;
   flex-direction: column;
+  height: fit-content;
   gap: 24px;
+  border-radius: 12px;
+  flex:1;
+}
+
+.category-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
 }
 
 h2 {
@@ -28,6 +87,18 @@ h2 {
   display: flex;
   gap: 8px;
   flex-direction: column;
+}
+
+.booster-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.item-column {
+  display: inline-flex;
+
 }
 
 h3 {
